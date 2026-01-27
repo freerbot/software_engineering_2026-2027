@@ -11,10 +11,11 @@
 # bool() – converts a value to a boolean.
 #
 #
-# Casting may fail if the value isn’t compatible with the new type (e.g., int("hello") causes an error), so programs must handle such cases carefully.
+# Casting may fail if the value isn’t compatible with the new type (e.g., int("hello") causes an error),
+# so programs must handle such cases carefully.
 
 age = input("What's your age?")
-new_age = int(age) # this converts the input string into an integer
+new_age = int(age) # This converts the input string into an integer. Without this, the program would crash.
 if new_age >= 13:
     print("Ok, you can use this program.")
 else:
