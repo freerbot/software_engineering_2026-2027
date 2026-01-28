@@ -1,4 +1,3 @@
-#strings
 # Strings
 #
 # Store sequences of characters (letters, digits, symbols).
@@ -6,9 +5,10 @@
 # - Often support operations such as concatenation and slicing.
 # - Typically enclosed in quotation marks.
 
-
 player_name = "Zorkon"
 player_title = " the Great"
+print()
+
 
 #below will concatenate (join) two strings into one
 # player_full_name = player_name + player_title
