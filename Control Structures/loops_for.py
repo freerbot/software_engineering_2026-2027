@@ -4,20 +4,27 @@
 #iterables
 #nested
 
+
+# for whatever in range(10, 20, 3):
+#     print(whatever)
+
 # my_string = "whatever"
 # for x in my_string: #a string is a type of iterable
 #     print(x)
 
+# my_list = ["dogs", "frogs", "snogs"]
+# for animals in my_list:
+#     print(animals)
 
-user_input = input("Type something: ")
-total_characters = 0
-
-for x in user_input:
-    if x != " ":
-        total_characters += 1
-
-print(f"It has {total_characters} characters (not counting spaces).")
-
+# user_input = input("Type something: ")
+# total_characters = 0
+#
+# for x in user_input:
+#     if x != " ":
+#         total_characters += 1
+#
+# print(f"It has {total_characters} characters (not counting spaces).")
+#
 
 
 
@@ -88,3 +95,11 @@ print(f"It has {total_characters} characters (not counting spaces).")
 #     number_of_characters = number_of_characters + 1
 #
 # print(f"There are {number_of_characters} characters.")
+
+
+total_letters = 0
+name = input("What's your name?")
+for letter in name:
+    if letter != " ":
+        total_letters = total_letters + 1
+print(f"Your name has {total_letters} letters, not including spaces.")

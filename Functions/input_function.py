@@ -4,3 +4,11 @@
 
 user_name = input("Enter your name here: ")
 print(f"Hello, {user_name}.")
+
+
+
+user_age = int(input("Enter your age here: "))
+if user_age > 18:
+    print("You are an adult.")
+else:
+    print("You're not an adult.")
