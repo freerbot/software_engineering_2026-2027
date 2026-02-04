@@ -19,8 +19,16 @@ target = 100 # this is the number you're looking for
 #         print(f"I found it!")
 
 
-
-
+# THINGS YOU MIGHT NEED
+# COUNTER: a counter is a variable that you use to... count.
+#          for example, increasing it by 1 each time the program goes through one cycle of a loop
+# LIST INDEX: to access a specific location in a list, the syntax is list_name[index]
+#             for example, print(list_name[4]) will print the element at index 4 (actually the 5th element)
+# FLAG: a flag is a usually a boolean variable. it's used to determine if something has
+#       happened or not.
+#       for example, start the program with thing_has_happened = False. When thing happens, change it to True.
+#       the flag could then be used with an IF statement.
+#       if thing_has_happened is true, do something. if it's false, do something else.
 
 
 # current_index = 0
