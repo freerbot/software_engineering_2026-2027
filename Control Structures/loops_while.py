@@ -1,10 +1,13 @@
 
 whatever = 1
 
-while whatever == 1:
+while whatever == 1:  # the loop will run as long as this condition is true
     print("Hi, if you're reading this, it means whatever is equal to 1")
 
-print("You'll never see this message.")
+print("You'll never see this message.")  # and this line will never be executed
+# because the value of whatever will never change.
+# so if you want to exit the loop, you'll have to write some code
+# inside the loop to change the value of whatever.
 
 
 
