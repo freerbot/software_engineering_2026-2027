@@ -10,7 +10,7 @@
 
 # ###### LINEAR SEARCH ###########################################
 
-# index        0  1   2   3    4  5   6   7   8   9
+# index       0  1   2   3    4  5   6   7   8   9
 my_numbers = [1, 40, 20, 100, 5, 15, 88, 19, 99, 65] # creates a list of integers
 target = 100 # this is the number you're looking for
 
@@ -19,11 +19,16 @@ target = 100 # this is the number you're looking for
 #         print(f"I found it!")
 
 
-# THINGS YOU MIGHT NEED
+# THINGS YOU MIGHT NEED FOR CHALLENGE 2
 # COUNTER: a counter is a variable that you use to... count.
 #          for example, increasing it by 1 each time the program goes through one cycle of a loop
 # LIST INDEX: to access a specific location in a list, the syntax is list_name[index]
 #             for example, print(list_name[4]) will print the element at index 4 (actually the 5th element)
+
+# THINGS YOU MIGHT NEED FOR CHALLENGE 3
+# LEN(): the len() function tells you the length of a variable.
+#        for example, if name = "Freer" and you used len(name), it would return 5 because there are 5 letters
+#        or, if my_list = ["dog", "chicken", "snake"] and you used len(my_list), it would return 3 because there are 3 elements
 # FLAG: a flag is a usually a boolean variable. it's used to determine if something has
 #       happened or not.
 #       for example, start the program with thing_has_happened = False. When thing happens, change it to True.
@@ -31,18 +36,22 @@ target = 100 # this is the number you're looking for
 #       if thing_has_happened is true, do something. if it's false, do something else.
 
 
+
+#
 # current_index = 0
 # for number in my_numbers:
 #     if number == target: #compares current character to target
 #         print(f"Found it at index {current_index}")
 #     current_index = current_index + 1 # increases current_index by 1 for each pass through the loop
 
-
+# found = False
 # list_length = len(my_numbers) # finds how many elements are in the list
 # for element in range(list_length): # tells the loop to execute from 0 to the number of elements in the list
 #     if my_numbers[element] == target: # compares current element to target
 #         print(f"Found it at index {element}!")
-
+#         found = True
+# if found == False:
+#     print("Didn't find it. Sorry.")
 
 
 ##########################################################################
