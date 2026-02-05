@@ -1,4 +1,14 @@
 
+whatever = 1
+
+while whatever == 1:
+    print("Hi, if you're reading this, it means whatever is equal to 1")
+
+print("You'll never see this message.")
+
+
+
+
 
 
 
@@ -27,28 +37,28 @@
 #     print("The internet police have been called. You're going to jail, buddy.")
 # else:
 #     print("Log in successful.")
-
-
-CORRECT_USERNAME = "derp"
-CORRECT_PASSWORD = "derp1234"
-MAXIMUM_ATTEMPTS = 3
-
-attempts = 0
-while attempts < MAXIMUM_ATTEMPTS:
-    print("\nPlease log in with your username and password:")
-    username = input("Username: ")
-    password = input("Password: ")
-
-    if username == CORRECT_USERNAME and password == CORRECT_PASSWORD:
-        print("Log in successful.")
-        break
-
-    attempts += 1
-
-if attempts == MAXIMUM_ATTEMPTS:
-    print("The internet police have been called. You're going to jail, buddy.")
-
-
+#
+#
+# CORRECT_USERNAME = "derp"
+# CORRECT_PASSWORD = "derp1234"
+# MAXIMUM_ATTEMPTS = 3
+#
+# attempts = 0
+# while attempts < MAXIMUM_ATTEMPTS:
+#     print("\nPlease log in with your username and password:")
+#     username = input("Username: ")
+#     password = input("Password: ")
+#
+#     if username == CORRECT_USERNAME and password == CORRECT_PASSWORD:
+#         print("Log in successful.")
+#         break
+#
+#     attempts += 1
+#
+# if attempts == MAXIMUM_ATTEMPTS:
+#     print("The internet police have been called. You're going to jail, buddy.")
+#
+#
 
 
 
