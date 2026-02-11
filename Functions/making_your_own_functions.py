@@ -6,7 +6,7 @@
 def say_hi():
     print("Hi, I'm a computer.")# This line runs when the function is called.
 
-say_hi() # This calls the function so the code inside it will run.
+say_hi() # This calls the function so the code inside the function will run.
 
 
 
