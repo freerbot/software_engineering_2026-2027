@@ -3,11 +3,11 @@
 
 #### EXAMPLE OF FUNCTION RETURNING A VALUE ####
 
-# def say_hi(name): # creates a function that takes 1 argument
-#     greeting = "Hi, " + name # creates a variable and assigns it a value
-#     return greeting # this sends the value back to where the function was called
-#
-# print(say_hi("Mr Freer"))
+def say_hi(name): # creates a function that takes 1 argument
+    greeting = "Hi, " + name # creates a variable and assigns it a value
+    return greeting # this sends the value back to where the function was called
+
+print(say_hi("Mr Freer"))
 
 
 #### ANOTHER EXAMPLE OF FUNCTION RETURNING A VALUE ####

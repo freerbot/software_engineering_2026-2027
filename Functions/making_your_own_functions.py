@@ -4,16 +4,14 @@
 # This defines a function called say_hi.
 # It does not take any inputs (no parameters).
 def say_hi():
-    # This line runs when the function is called.
-    print("Hi, I'm a computer.")
+    print("Hi, I'm a computer.")# This line runs when the function is called.
 
-# This calls the function so the code inside it will run.
-say_hi()
+say_hi() # This calls the function so the code inside it will run.
 
 
 
-#### EXAMPLE OF A FUNCTION THAT TAKES 1 ARGUMENT ####
-# # This defines a function that expects 1 argument: name.
+#### EXAMPLE OF A FUNCTION THAT TAKES 1 INPUT (called a PARAMETER) ####
+# # This defines a function that has 1 parameter: name.
 # def say_hi(name):
 #     print(f"Hi, {name}")
 #
@@ -22,7 +20,7 @@ say_hi()
 
 
 
-#### EXAMPLE OF A FUNCTION THAT TAKES 2 ARGUMENTS ####
+#### EXAMPLE OF A FUNCTION THAT HAS 2 PARAMETERS ####
 
 # # This defines a function that expects 2 parameters: name and favourite_food.
 # def say_hi(name, favourite_food):
@@ -38,12 +36,13 @@ say_hi()
 # favourite_food = "pizza"
 #
 # # Calling the function with two arguments.
+# # An argument is the piece of data you're sending to the function.
 # say_hi(name, favourite_food)
 
 
 
 
-#### EXAMPLE OF A FUNCTION THAT TAKES 2 ARGUMENTS AND USES RANDOM NUMBERS ####
+#### EXAMPLE OF A FUNCTION THAT HAS 2 PARAMETERS AND USES RANDOM NUMBERS ####
 
 # import random
 #
