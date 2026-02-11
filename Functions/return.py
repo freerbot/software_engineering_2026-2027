@@ -10,7 +10,7 @@
 # print(say_hi("Mr Freer"))
 
 
-#### ANOTHER EXAMPLE OF FUNCTION RETURN ####
+#### ANOTHER EXAMPLE OF FUNCTION RETURNING A VALUE ####
 
 # def cube_number(number_to_cube):
 #     cubed_number = number_to_cube * number_to_cube * number_to_cube # calculates the cubed number
