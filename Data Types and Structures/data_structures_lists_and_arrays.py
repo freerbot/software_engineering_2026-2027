@@ -11,8 +11,8 @@
 # ###### LINEAR SEARCH ###########################################
 
 # index       0  1   2   3    4  5   6   7   8   9
-my_numbers = [1, 40, 20, 100, 5, 15, 88, 19, 99, 65] # creates a list of integers
-target = 100 # this is the number you're looking for
+# my_numbers = [1, 40, 20, 100, 5, 15, 88, 19, 99, 65] # creates a list of integers
+# target = 100 # this is the number you're looking for
 
 # for number in my_numbers:
 #     if number == target:
@@ -92,6 +92,14 @@ target = 100 # this is the number you're looking for
 
 
 
+#### Adding items to a list ######
+
+# To add an item to a list, use the .append() method:
+
+my_list = ["cats", "rats"]
+print(my_list)
+my_list.append("bats")
+print(my_list)
 
 
 
@@ -103,14 +111,3 @@ target = 100 # this is the number you're looking for
 
 
 
-
-
-#list length
-
-#.split()
-
-
-#multidimensional lists
-
-
-#arrays
