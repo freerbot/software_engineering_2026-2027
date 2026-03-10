@@ -1,9 +1,12 @@
 #stacks (lists)
 
-my_stack = ["one", "two", "three", "four", "five"]
+my_stack = [5, 10, 20, 500, 6]
+popped_element = my_stack.pop()
+print(popped_element)
 
-
-print(popped_thing)
+# popped_thing = my_stack.pop()
+# print(popped_thing)
+# print(my_stack)
 
 
 
