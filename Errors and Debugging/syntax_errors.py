@@ -17,7 +17,7 @@ HOW TO USE THIS FILE:
 - All OTHER examples are commented out.
 - Uncomment ONE example at a time, run the file, read the error message, then fix it.
 """
-
+#
 # ---------------------------------------------------------
 # EXAMPLE 1 (LIVE): Missing colon in an if statement
 # ---------------------------------------------------------
