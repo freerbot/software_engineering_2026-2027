@@ -1,7 +1,7 @@
 def calculate_total(prices):
     total = 0
     for price in prices:
-        total = total + price # breakpoint
+        total = total + price # try a breakpoint here
     return total
 
 shopping_cart = [10, 25, 5, 30]

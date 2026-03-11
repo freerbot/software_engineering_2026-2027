@@ -18,7 +18,7 @@ import random
 print("Guess the number (1–10). You get 3 guesses. Note: The target changes each time!")
 
 for attempt in range(1, 4):
-    target = random.randint(1, 10)   # breakpoint here
+    target = random.randint(1, 10)   # try a breakpoint here
     guess = int(input(f"Attempt {attempt}: Enter your guess: "))
 
     if guess == target:
