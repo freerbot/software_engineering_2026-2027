@@ -18,6 +18,7 @@
 # So whether you use 'Step Over' or 'Step Into' depends on what level of detail
 # you want to look at during the debugging process.
 
+
 def calculate_discount(price, discount_percent):
     discount_amount = price * (discount_percent / 100)
     final_price = price - discount_amount
