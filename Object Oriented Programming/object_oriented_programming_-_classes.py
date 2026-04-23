@@ -36,11 +36,8 @@ print(f"My dog is {my_dog.name} and it is a {my_dog.breed}.")
 #
 # my_dog = Dog(name, breed)
 #
-# name = input("What's your dog's name? ")
-# breed = input("What's your dog's breed? ")
-# my_other_dog = Dog(name, breed)
 # print(f"Your dog is {my_dog.name} and it is a {my_dog.breed}.")
-# print(f"Your dog is {my_other_dog.name} and it is a {my_other_dog.breed}.")
+
 ##################################################################################
 
 
