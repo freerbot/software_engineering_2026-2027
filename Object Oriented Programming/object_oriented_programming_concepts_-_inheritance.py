@@ -43,16 +43,18 @@ class Cat(Animal):
 
 
 # let's instantiate an object based on the Animal class..
+print("Let's learn about Steve the nonspecific animal:")
 my_animal = Animal("Steve") # this line INSTANTIATES the my_animal object. It only takes one argument, which is its name.
 print(f"{my_animal.name} is a generic animal")
 print(f"Does {my_animal.name} have DNA? {my_animal.has_dna}") # the has_dna attribute is automatically included in the Animal class's __init__, no need to send it as an argument when you instantiate an Animal object.
 my_animal.speak() # this will output "makes a non-specific animal sound"
 
 # and now instantiate an object based on the Dog class..
+print("And here's Mr Barky, the dog:")
 my_dog = Dog("Mr Barky", "extremely furry") # this INSTANTIATES my_dog object based on the Dog child class. it takes two arguments (name, furryness) instead of just one argument (name) like an Animal object.
 print(f"{my_dog.name} is a dog, which is a type of animal.") # the name attribute is common to the parent and child classes
 print(f"{my_dog.name}'s level of furryness is: {my_dog.furryness}.") # the furryness attribute is unique to the child class
-print(f"Does {my_dog.name} have DNA? {my_animal.has_dna}") # and the has_dna attribute is also common to both parent and child classes
+print(f"Does {my_dog.name} have DNA? {my_dog.has_dna}") # and the has_dna attribute is also common to both parent and child classes
 my_dog.speak() # this will output "barks"
 
 

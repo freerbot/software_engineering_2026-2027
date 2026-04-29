@@ -15,11 +15,9 @@
 #         # Because this is a method of the object, it can see the private attributes
 #         # like my_dog.__name and my_dog.__breed
 #
-# name = input("What's your dog's name? ")
-# breed = input("What's your dog's breed? ")
-#
-# my_dog = Dog(name, breed)
-#
+# my_dog = Dog("Kenny", "chihuahua")
+# my_dog.describe()
+
 # my_dog.bark()
 # my_dog.describe()
 
@@ -30,12 +28,12 @@
 
 ### This is a very basic way to do banking. Not flexible and not secure.
 
-# my_account_balance = 1000
-# my_account_id = "FREER1234"
+# freer_account_balance = 1000
+# freer_account_id = "FREER1234"
 # withdrawal_amount = int(input("How much would you like to withdraw? "))
-# my_account_balance = my_account_balance - withdrawal_amount
+# freer_account_balance = freer_account_balance - withdrawal_amount
 # print(f"You withdrew {withdrawal_amount}")
-# print(f"New balance: {my_account_balance}")
+# print(f"New balance: {freer_account_balance}")
 
 ####################################################################################
 
@@ -77,7 +75,7 @@
 #         self.__account_id = account_id
 #
 #     def withdraw(self, withdrawal_amount):
-#         if withdrawal_amount > 0:
+#         if withdrawal_amount > 0 and withdrawal_amount < self.__balance:
 #             self.__balance = self.__balance - withdrawal_amount
 #             print(f"You withdrew {withdrawal_amount}")
 #             print(f"New balance: {self.__balance}")
@@ -88,6 +86,6 @@
 #
 # withdrawal_amount = int(input("How much would you like to withdraw? "))
 # my_account.withdraw(withdrawal_amount)
-#
+
 #
 #
